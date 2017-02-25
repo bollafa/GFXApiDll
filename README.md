@@ -49,6 +49,7 @@ The **controls** in game are as follows:
 - Numpad 8 : moves timer upways.
 - Numpad 2 : moves timer down.
 - Numpad 3 : Reload GameTimer.txt
+
 # TODOS
 
 Support  OpenGL , DirectX 10 and earlier versions of DirectX9 , Vulkan and Mantle.

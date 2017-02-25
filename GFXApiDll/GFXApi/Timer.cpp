@@ -39,6 +39,6 @@ Time & CTimer::GetFormattedTime()
 std::stringstream & operator<<(std::stringstream & out, Time cTime)
 {
 //	out << "ºTIMEº    " << cTime.dwHours << ":" << cTime.dwMinutes << ":" << cTime.fSeconds;
-	out << "" << cTime.dwHours << ":" << cTime.dwMinutes << ":" << cTime.fSeconds;
+	out << "" << cTime.dwHours / 10 << cTime.dwHours%10 << ":" << cTime.dwMinutes/10 << cTime.dwMinutes%10 << ":" << cTime.fSeconds;
 	return out;
 }

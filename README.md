@@ -10,8 +10,8 @@ How to do this you ask? Well it is really easy in practice, use an injector that
 
 # Games / Graphics Library supported
 As of now, Banana Splitter supports:
-DirectX 9.0
-Directx 11.0
+-DirectX 9.0
+-Directx 11.0
 
 # HOW TO CONTROL
 
@@ -20,11 +20,11 @@ And the Dll will create a folder at Documents, called BananaSplitter. ( My Docum
 Inside it, there will be 2 files, (if everything went OK ) :
 **GameTimer.txt** : Here you can put the name of each checkpoint that you want to see ingame for example
 
-00: First Boss
+```First Boss
 
-01: Wall-Glitch
+ Wall-Glitch
 
-02: Second Boss
+ Second Boss```
 
 
 (etc. , you get the idea)
@@ -34,11 +34,11 @@ and another file:
 **Config.txt** : There will be 3 comments, put the RGBA color in the order specified below each comment, ranging from 0-255
 
 ######Hint Color
-R,G,B,A
+**_R,G,B,A_**
 ######LapColor
-R,G,B,A
+**_R,G,B,A_**
 ######Current time color
-R,G,BA
+**_R,G,B,A_**
 # TODOS
 
 Support  OpenGL , DirectX 10 and earlier versions of DirectX9 , Vulkan and Mantle.

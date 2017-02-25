@@ -48,6 +48,8 @@ The **controls** in game are as follows:
 - Numpad 6 : Moves timer rightways.
 - Numpad 8 : moves timer upways.
 - Numpad 2 : moves timer down.
+- Numpad 3 : Reload GameTimer.txt
+
 # TODOS
 
 Support  OpenGL , DirectX 10 and earlier versions of DirectX9 , Vulkan and Mantle.
@@ -67,3 +69,17 @@ Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **oth
 - Supremme Commander I : ( Supremme commander speedrun?? :D it works tho :D )
 
 I really dont have any other game that I can check, so , if it doesnt work in your game PLEASE LET ME KNOW.
+
+# Credits
+
+The most important section, yet I dont know why everybody leaves this at the end, or doesnt read it at all.
+Firstly , I want to say a HUUUUUUUUUUUUUUUUUUGE thanks to **Tsuda Kageyu** the original autor of **MinHook - The Minimalistic API Hooking Library for x64/x86** , it's what makes this program work, without it, this wouldn't even exist.
+
+Then, StackOverflow and every user on it as they have helped a lot, a LOT.
+
+Lastly but now in any way worse: **Unknowncheats.me** the greatest forum and community I've ever seen, I want to thank specially  **evolution536** for his tutorials on x64 hooking and Direct3d11 hooking.
+
+I almost forgot, the humongously great MSDN Documentation, holy damn, it has helped. 
+
+
+Thanks for taking your time to read this!

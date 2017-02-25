@@ -18,22 +18,26 @@ Directx 11.0
 When you inject the dll, you'll see at your left a timer set at 0 , 00:00:0 .
 And the Dll will create a folder at Documents, called BananaSplitter. ( My Documents \ BananaSplitter )
 Inside it, there will be 2 files, (if everything went OK ) :
-GameTimer.txt : Here you can put the name of each checkpoint that you want to see ingame for example
+**GameTimer.txt** : Here you can put the name of each checkpoint that you want to see ingame for example
+
 00: First Boss
+
 01: Wall-Glitch
+
 02: Second Boss
+
 
 (etc. , you get the idea)
 
 and another file:
 
-Config.txt : There will be 3 comments, put the RGBA color in the order specified below each comment, ranging from 0-255
+**Config.txt** : There will be 3 comments, put the RGBA color in the order specified below each comment, ranging from 0-255
 
-#Hint Color
+######Hint Color
 R,G,B,A
-#LapColor
+######LapColor
 R,G,B,A
-#Current time color
+######Current time color
 R,G,BA
 # TODOS
 

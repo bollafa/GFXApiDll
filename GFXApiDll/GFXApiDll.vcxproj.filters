@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GFXApi">
+      <UniqueIdentifier>{8db3aca3-8d6f-4614-b2eb-3f87560e8087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GFXApi">
+      <UniqueIdentifier>{4c3f002f-faed-467a-9116-6f6f20693970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GFXApi\GFXPolicies">
+      <UniqueIdentifier>{54f5c4dd-5b5c-4a1a-9af5-72e0d936e973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GFXApi\FW1FontWrapper">
+      <UniqueIdentifier>{329f3b98-e31d-4ca6-966f-4247810b7763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GFXApi\FW1FontWrapper">
+      <UniqueIdentifier>{b31f65dd-0dca-4e0d-b22c-57d6b4321d5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\D3D9Policy.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\Timer.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\WindowsFramework.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\GUISystem.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\D3D11Policy.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1FontWrapperInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphProvider.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1TextGeometryInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1TextGeometry.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1FontWrapper.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1FactoryInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1TextRendererInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1TextRenderer.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1ColorRGBA.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1ColorRGBAInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1DWriteRenderTarget.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1Factory.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphAtlas.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphAtlasInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphProviderInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphRenderStates.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphSheet.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphSheetInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphVertexDrawer.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\CFW1StateSaver.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\FW1FontWrapper.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FW1FontWrapper\FW1Precompiled.cpp">
+      <Filter>Source Files\GFXApi\FW1FontWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="GFXApi\FileMgr.cpp">
+      <Filter>Source Files\GFXApi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\GFXApi.h">
+      <Filter>Header Files\GFXApi</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\WindowsFramework.h">
+      <Filter>Header Files\GFXApi</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\Timer.h">
+      <Filter>Header Files\GFXApi</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\GUISystem.h">
+      <Filter>Header Files\GFXApi</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\D3D9Policy.h">
+      <Filter>Header Files\GFXApi\GFXPolicies</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\D3D11Policy.h">
+      <Filter>Header Files\GFXApi\GFXPolicies</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1GlyphProvider.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1TextGeometry.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\FW1FontWrapper.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1FontWrapper.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1Factory.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1TextRenderer.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1ColorRGBA.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1DWriteRenderTarget.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1GlyphAtlas.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1GlyphRenderStates.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1GlyphSheet.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1GlyphVertexDrawer.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1Object.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\CFW1StateSaver.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\FW1CompileSettings.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FW1FontWrapper\FW1Precompiled.h">
+      <Filter>Header Files\GFXApi\FW1FontWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="GFXApi\FileMgr.h">
+      <Filter>Header Files\GFXApi\GFXPolicies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

@@ -158,7 +158,7 @@ POINT & D3D11Policy::GetScreenSize()
 {
 	return scSize;
 }
-
+ 
 void D3D11Policy::PrintWithFont(std::string sFontName, std::string sText, RECT pt_Coordinates, sRGBA RGBA)
 {
 	for (auto it = vFonts.begin(); it != vFonts.end(); ++it)

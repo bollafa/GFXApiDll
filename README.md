@@ -71,7 +71,7 @@ I really dont have any other game that I can check, so , if it doesnt work in yo
 # Credits
 
 The most important section, yet I dont know why everybody leaves this at the end, or doesnt read it at all.
-Firstly , I want to say a HUUUUUUUUUUUUUUUUUUGE thanks to **Tsuda Kageyu** the original autor of ** MinHook - The Minimalistic API Hooking Library for x64/x86** , it's what makes this program work, without it, this wouldn't even exist.
+Firstly , I want to say a HUUUUUUUUUUUUUUUUUUGE thanks to **Tsuda Kageyu** the original autor of **MinHook - The Minimalistic API Hooking Library for x64/x86** , it's what makes this program work, without it, this wouldn't even exist.
 
 Then, StackOverflow and every user on it as they have helped a lot, a LOT.
 

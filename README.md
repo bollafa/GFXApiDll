@@ -20,11 +20,11 @@ And the Dll will create a folder at Documents, called BananaSplitter. ( My Docum
 Inside it, there will be 2 files, (if everything went OK ) :
 **GameTimer.txt** : Here you can put the name of each checkpoint that you want to see ingame for example
 
-```First Boss
-
- Wall-Glitch
-
- Second Boss```
+```
+First Boss
+Second Boss
+Gwyn ( Last Boss )
+```
 
 
 (etc. , you get the idea)

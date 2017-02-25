@@ -1,4 +1,4 @@
-# GFXApiDll \ Banana Splitter
+# GFXApiDll / Banana Splitter
 GFX Api , used in Banana Splitter, is the first in-game splitter available! ( that I know ;) ) !!!!!!!!
 Now, you dont need to play the game in windowed mode and have the splitter next to you, you can play in fullscreen, YES IN FULLSCREEN!!!
 # How to use ?
@@ -44,3 +44,17 @@ and another file:
 Support  OpenGL , DirectX 10 and earlier versions of DirectX9 , Vulkan and Mantle.
 
 Custom loader/injector with more customizable options :)
+
+# KNOWN ISSUES
+
+Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **other games that use DirectX9** use the BananaSplitterAlternative.dll (doesnt matter wheter it is x64 , or x86 , just make sure the target process is the same architecture)
+
+# Checked Games
+
+**Games that I have checked under _windows 7_ that work ** 
+- Darksouls III
+- Darksouls II : Scholar of the first sin
+- Darksouls I  : ( with the alternative Dll)
+- Supremme Commander I : ( Supremme commander speedrun?? :D it works tho :D )
+
+I really dont have any other game that I can check, so , if it doesnt work in your game PLEASE LET ME KNOW.

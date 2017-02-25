@@ -39,6 +39,15 @@ and another file:
 **_R,G,B,A_**
 ######Current time color
 **_R,G,B,A_**
+
+The **controls** in game are as follows: 
+space : pause / start
+Numpad 0 : add split (when you get to your checkpoint press this key)
+Numpad 7 : Save ( saves the run in `Documents\BananaSplitter\Game _GameName_ _Numberofmilliseconds_ .txt ` )
+Numpad 4:  Move timer leftways.
+Numpad 6 : Moves timer rightways.
+Numpad 8 : moves timer upways.
+Numpad 2 : moves timer down.
 # TODOS
 
 Support  OpenGL , DirectX 10 and earlier versions of DirectX9 , Vulkan and Mantle.

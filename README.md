@@ -47,7 +47,7 @@ Custom loader/injector with more customizable options :)
 
 # KNOWN ISSUES
 
-Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **other games that use DirectX9** use the BananaSplitterAlternative.dll (doesnt matter wheter it is x64 , or x86 , just make sure the target process is the same architecture)
+Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **other special snowflake games that use DirectX9** use the BananaSplitterAlternative.dll (doesnt matter wheter it is x64 , or x86 , just make sure the target process is the same architecture)
 
 # Checked Games
 

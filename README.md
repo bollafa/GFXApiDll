@@ -70,6 +70,8 @@ Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **oth
 
 I really dont have any other game that I can check, so , if it doesnt work in your game PLEASE LET ME KNOW.
 
+# DISCLAIMER
+I dont take the responsibility of you getting banned for using this in online games, if you want to speed run in Steam **_remember to play in offline mode_** . Just remember to play in offline mode.
 # Credits
 
 The most important section, yet I dont know why everybody leaves this at the end, or doesnt read it at all.
@@ -83,3 +85,6 @@ I almost forgot, the humongously great MSDN Documentation, holy damn, it has hel
 
 
 Thanks for taking your time to read this!
+
+
+

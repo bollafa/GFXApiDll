@@ -10,8 +10,8 @@ How to do this you ask? Well it is really easy in practice, use an injector that
 
 # Games / Graphics Library supported
 As of now, Banana Splitter supports:
--DirectX 9.0
--Directx 11.0
+- DirectX 9.0
+- Directx 11.0
 
 # HOW TO CONTROL
 

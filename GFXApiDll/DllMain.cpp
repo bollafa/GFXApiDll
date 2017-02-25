@@ -46,6 +46,7 @@ DWORD WINAPI Start(LPVOID lParam)
 		//std::cout << "I cry evertm" << std::endl;
 		//std::wcout << WindowsFramework::GetCurrentWindowTitle() << std::endl;
 		gfxBase->Init(REGULAR);
+		//gfxBase->Init(ALTERNATIVE);
 		
 	}
 	//std::cout << " ;)" << std::endl;

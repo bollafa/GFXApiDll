@@ -194,13 +194,13 @@ inline void GFXBase<GFXPolicy>::OnDraw()
 
 	};
 	////std::cout << Temp.x << " <--  X\n" << Temp.y << " <-- Y" << std::endl;
+	//GFXPolicy::PrintWithFont("Lap", uiTimeList.Update(), {  Temp.x / 2 + Temp.x / 40,20 }, CreateColorWithTuple(vColors.at(1)) );
+	//GFXPolicy::PrintWithFont("Lap", uiLapNameList.Update(), { Temp.x / 5 +  Temp.x / 5,20 }, CreateColorWithTuple(vColors.at(0)) );
+	//GFXPolicy::PrintWithFont("Timer", ssTime.str(), { 20 + TimeOffset.x ,Temp.y / 2 + TimeOffset.y ,600,600 }, CreateColorWithTuple(vColors.at(2)) );
+
 	GFXPolicy::PrintWithFont("Lap", uiTimeList.Update(), { Temp.x / 2 + Temp.x / 4 + Temp.x / 40,20 }, CreateColorWithTuple(vColors.at(1)) );
 	GFXPolicy::PrintWithFont("Lap", uiLapNameList.Update(), { Temp.x / 2 + Temp.x / 7,20 }, CreateColorWithTuple(vColors.at(0)) );
 	GFXPolicy::PrintWithFont("Timer", ssTime.str(), { 20 + TimeOffset.x ,Temp.y / 2 + TimeOffset.y ,600,600 }, CreateColorWithTuple(vColors.at(2)) );
-
-	//GFXPolicy::PrintWithFont("Lap", uiTimeList.Update(), { Temp.x / 2 + Temp.x / 4 + Temp.x / 50,20 }, CreateColorWithTuple(vColors.at(1)) );
-	//GFXPolicy::PrintWithFont("Lap", uiLapNameList.Update(), { Temp.x / 2 + Temp.x / 7,20 }, CreateColorWithTuple(vColors.at(0)) );
-	//GFXPolicy::PrintWithFont("Timer", ssTime.str(), { 20 + TimeOffset.x ,Temp.y / 2 + TimeOffset.y ,600,600 }, CreateColorWithTuple(vColors.at(2)) );
 }
 
 template<typename GFXPolicy>

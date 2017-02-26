@@ -79,6 +79,7 @@ Firstly , I want to say a HUUUUUUUUUUUUUUUUUUGE thanks to **Tsuda Kageyu** the o
 
 Then, StackOverflow and every user on it as they have helped a lot, a LOT.
 FW1FontWrapper for the amazing font api!! :D
+
 Lastly but now in any way worse: **Unknowncheats.me** the greatest forum and community I've ever seen, I want to thank specially  **evolution536** for his tutorials on x64 hooking and Direct3d11 hooking.
 
 I almost forgot, the humongously great MSDN Documentation, holy damn, it has helped. 

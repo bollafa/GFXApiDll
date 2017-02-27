@@ -70,12 +70,15 @@ Darksouls 1 for some reason is a special snowflake, so for DarkSouls 1 and **oth
 
 I really dont have any other game that I can check, so , if it doesnt work in your game PLEASE LET ME KNOW.
 
+# DISCLAIMER
+I dont take the responsibility of you getting banned for using this in online games, if you want to speed run in Steam **_remember to play in offline mode_** . Just remember to play in offline mode.
 # Credits
 
 The most important section, yet I dont know why everybody leaves this at the end, or doesnt read it at all.
 Firstly , I want to say a HUUUUUUUUUUUUUUUUUUGE thanks to **Tsuda Kageyu** the original autor of **MinHook - The Minimalistic API Hooking Library for x64/x86** , it's what makes this program work, without it, this wouldn't even exist.
 
 Then, StackOverflow and every user on it as they have helped a lot, a LOT.
+FW1FontWrapper for the amazing font api!! :D
 
 Lastly but now in any way worse: **Unknowncheats.me** the greatest forum and community I've ever seen, I want to thank specially  **evolution536** for his tutorials on x64 hooking and Direct3d11 hooking.
 
@@ -83,3 +86,6 @@ I almost forgot, the humongously great MSDN Documentation, holy damn, it has hel
 
 
 Thanks for taking your time to read this!
+
+
+

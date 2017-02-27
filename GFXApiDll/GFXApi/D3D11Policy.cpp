@@ -65,7 +65,7 @@ HRESULT (WINAPI D3D11Policy::D3D11PresentHooked)(IDXGISwapChain * pSwapChain, UI
 		//	std::cout << "It Worked!!!!" << std::endl;
 		}
 		CreateFonts();
-		WindowsFramework::HookKeyBoard(Trampoline);
+		//WindowsFramework::HookKeyBoard(Trampoline);
 		bDeviceHasChanged = true;
 	}
 	pCurrentDeviceContext->OMSetRenderTargets(1, &g_pRenderTargetView, NULL);

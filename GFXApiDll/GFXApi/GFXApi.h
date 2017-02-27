@@ -23,7 +23,7 @@ private:
 public:
 
 	virtual void Init(INIT_TYPE init) = 0;
-
+	virtual void Callbacked(DWORD32 vkKey) = 0;
 
 };
 template <typename GFXPolicy>
@@ -65,7 +65,7 @@ public:
 	void Init(INIT_TYPE init);
 	void OnDraw();
 	
-
+	
 	void Callbacked(DWORD32 vkKey);
 };
 
@@ -209,6 +209,7 @@ inline void GFXBase<GFXPolicy>::Callbacked(DWORD32 vkKey)
 	std::wstringstream Convert;
 	Convert << DocumentsPath;
 	FileMgr* Temp;
+	std::cout << "key:" << vkKey << std::endl;
 	switch (vkKey)
 	{
 

@@ -1,0 +1,19 @@
+[Release] Simple In Game Time Splitter - Banana Splitter
+
+
+Hey there :) , I've made an in-game time splitter for speedrunning!
+Lately, I wanted to speedrun , so by searching everywhere I didnt find any in game splitter I always had to play in windowed-mode ( and I dont like doing that :(  ) so I decided to make my own !
+Now you can time your speed runs in FULLSCREEN  :D
+
+It's called Banana Splitter and right now is pretty basic, but it is the best of it's kind!
+
+The information on how to use it and how it works is on github -> [here](https://github.com/bollafa/GFXApiDll)
+
+As I say in the readme in github I recommend using Extreme Injector by master131 , you can get it here:
+[Extreme Injector](http://extremeinjector.net)
+
+
+In the meanwhile I am working on my own Dll injector, so I can make more configuration changes and such.
+
+Here's an image! ( I've taken this with nvidia shadow play)
+https://puu.sh/ujxph/a3b503b13b.png

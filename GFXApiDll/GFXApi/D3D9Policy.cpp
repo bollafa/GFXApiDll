@@ -200,7 +200,7 @@ HRESULT D3D9Policy::HookEndScene(LPDIRECT3DDEVICE9 _this)
 	{
 		CreateFonts();
 		
-		WindowsFramework::HookKeyBoard(Trampoline);
+		//WindowsFramework::HookKeyBoard(Trampoline);
 		bDeviceHasChanged = true;
 	}
 

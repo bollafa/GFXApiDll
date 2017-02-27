@@ -8,7 +8,7 @@ private:
 	
 	static Callback cCustomProcess;
 	static HHOOK hHKeyboardHook;
-	static LPARAM lOldLParam;
+	static WPARAM lOldLParam;
 	
 public:
 	static LRESULT CALLBACK KeyboardProcedure(int nCode, WPARAM wParam, LPARAM lParam);

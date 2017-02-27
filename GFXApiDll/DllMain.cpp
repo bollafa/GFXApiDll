@@ -32,13 +32,19 @@ void CheckTypesAndCreateGFX()
 	//std::cout << "None found!!!" << std::endl;
 }
 // -------
+void KeyboardHookTest(DWORD32 vkKey)
+{
 
+	gfxBase->Callbacked(vkKey);
+
+}
+// -------
 struct point { int x, y; };
 DWORD WINAPI Start(LPVOID lParam)
 {
 	//DELETE BEGIN
-	//AllocConsole();
-	//freopen("CONOUT$", "w", stdout);
+	AllocConsole();
+	freopen("CONOUT$", "w", stdout);
 	//DELETE END
 	CheckTypesAndCreateGFX();
 	if (gfxBase != nullptr)
@@ -48,6 +54,12 @@ DWORD WINAPI Start(LPVOID lParam)
 		gfxBase->Init(REGULAR);
 		//gfxBase->Init(ALTERNATIVE);
 		
+	}
+	WindowsFramework::HookKeyBoard(KeyboardHookTest);
+	MSG msg;
+	while (GetMessage(&msg, NULL, 0, 0))
+	{
+		// I dont think this is good practice
 	}
 	//std::cout << " ;)" << std::endl;
 	return 0;

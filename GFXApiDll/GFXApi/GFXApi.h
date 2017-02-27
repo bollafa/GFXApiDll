@@ -209,7 +209,7 @@ inline void GFXBase<GFXPolicy>::Callbacked(DWORD32 vkKey)
 	std::wstringstream Convert;
 	Convert << DocumentsPath;
 	FileMgr* Temp;
-	std::cout << "key:" << vkKey << std::endl;
+	//std::cout << "key:" << vkKey << std::endl;
 	switch (vkKey)
 	{
 

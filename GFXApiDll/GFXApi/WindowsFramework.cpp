@@ -33,10 +33,10 @@ LRESULT CALLBACK WindowsFramework::KeyboardProcedure(int nCode, WPARAM wParam, L
 	{
 		KBDLLHOOKSTRUCT* pStruct = (KBDLLHOOKSTRUCT*)lParam;
 		//std::cout << " Outside If wParam : " << (wParam == WM_KEYUP) << std::endl;
-		std::cout << "lOldLParam: " << lOldLParam << "\npStruct->vkCode: " << pStruct->vkCode << std::endl;
+		//std::cout << "lOldLParam: " << lOldLParam << "\npStruct->vkCode: " << pStruct->vkCode << std::endl;
 		if (wParam == WM_KEYUP && lOldLParam != wParam)
 		{
-			std::cout << "Inside If" << std::endl;
+			//std::cout << "Inside If" << std::endl;
 			cCustomProcess(pStruct->vkCode);
 		}
 

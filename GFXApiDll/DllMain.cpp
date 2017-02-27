@@ -43,8 +43,8 @@ struct point { int x, y; };
 DWORD WINAPI Start(LPVOID lParam)
 {
 	//DELETE BEGIN
-	AllocConsole();
-	freopen("CONOUT$", "w", stdout);
+//	AllocConsole();
+	//freopen("CONOUT$", "w", stdout);
 	//DELETE END
 	CheckTypesAndCreateGFX();
 	if (gfxBase != nullptr)

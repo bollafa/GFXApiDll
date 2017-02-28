@@ -1,6 +1,10 @@
 # GFXApiDll / Banana Splitter
 GFX Api , used in Banana Splitter, is the first in-game splitter available! ( that I know ;) ) !!!!!!!!
 Now, you dont need to play the game in windowed mode and have the splitter next to you, you can play in fullscreen, YES IN FULLSCREEN!!!
+![](https://puu.sh/unGqi/8e90c59d81.jpg)
+
+![](https://puu.sh/um2kR/ed09b55d58.jpg)
+
 # How to use ?
 Banana splitter is not the regular .exe you are used to , it's a dll - and as I dont know if my target readers know about this topic, I will assume you don't - . It is a dll because it needs to live within the target process - kinda like a parasite - and then it is able to hook the drawing functions of the game and it's able to draw text!.
 
